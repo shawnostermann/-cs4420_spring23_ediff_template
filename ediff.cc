@@ -22,7 +22,7 @@
 // these functions will save you a LOT of time
 static void Usage(const char error[]);
 static void Process(void);
-static int ReadChar(int df, unsigned pos);
+static int ReadChar(int fd, unsigned pos);
 static int SameLine(int fd1, int pos1, int fd2, int pos2);
 static void PrintLine(int fd, unsigned pos);
 static int NextLinePos(int fd, unsigned pos);
